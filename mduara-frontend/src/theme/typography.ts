@@ -1,0 +1,33 @@
+export const typography = {
+  family: 'Inter',
+  sizes: {
+    micro: 9,
+    caption: 10,
+    label: 11,
+    body: 13,
+    bodyLg: 14,
+    h3: 16,
+    h2: 20,
+    h1: 28,
+    display: 42,
+    value: 20,
+  },
+  lineHeights: {
+    caption: 14,
+    label: 16,
+    body: 20,
+    bodyLg: 22,
+    h3: 22,
+    h2: 26,
+    h1: 34,
+    display: 48,
+  },
+  weights: {
+    regular: '400',
+    medium: '500',
+    semibold: '600',
+    bold: '700',
+    extrabold: '800',
+    black: '900',
+  },
+} as const;
